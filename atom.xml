@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frontstoner.github.io/"/>
-  <updated>2019-06-05T06:35:38.000Z</updated>
+  <updated>2019-06-19T08:24:31.000Z</updated>
   <id>https://frontstoner.github.io/</id>
   
   <author>
@@ -17,13 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://frontstoner.github.io/2019/06/19/frame-autolayout%E6%AF%94%E8%BE%83/"/>
+    <id>https://frontstoner.github.io/2019/06/19/frame-autolayout比较/</id>
+    <published>2019-06-19T08:24:21.000Z</published>
+    <updated>2019-06-19T08:24:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="frame-autolayout-比较"><a href="#frame-autolayout-比较" class="headerlink" title="frame autolayout 比较"></a>frame autolayout 比较</h1><h3 id="frame"><a href="#frame" class="headerlink" title="frame"></a>frame</h3><p>View初始化时候增加控件 在layoutSubviews 中做布局，将所有的子视图按照 UI 显示从上至下、从左至右的顺序来布局，感觉也很规范，代码也不会导致不易维护的程度。</p><h3 id="autolayout"><a href="#autolayout" class="headerlink" title="autolayout"></a>autolayout</h3><p>由于在 2012 年苹果发布了 4.0 寸的 iPhone5，在 iOS 平台上出现了不同尺寸的移动设备，使得原有的 frame 布局方式无法很好地适配不同尺寸的屏幕，所以，为了解决这一问题 Auto Layout 就诞生了。</p><p>Auto Layout 的诞生并没有如同苹果的其它框架一样收到开发者的好评，它自诞生的第一天起就饱受 iOS 开发者的批评，其蹩脚、冗长的语法使得它在刚刚面世就被无数开发者吐槽，写了几个屏幕的代码都不能完成一个简单的布局，哪怕是 VFL（Visual Format Language）也拯救不了它。</p><p>真正使 Auto Layout 大规模投入使用的应该还是 <a href="https://github.com/SnapKit/Masonry" target="_blank" rel="noopener">Masonry</a>，它使用了链式的语法对 Auto Layout 进行了很好的封装，使得 Auto Layout 更加简单易用；时至今日，开发者也在日常使用中发现了 Masonry 的各种问题，于是出现了各种各样的布局框架，不过这都是后话了。</p><blockquote><p>autolayout与Cassowary关系</p><p>一个是 1997 年，Auto Layout 用到的布局算法 Cassowary 被发明了出来；</p><p>另一个是 2011 年，苹果公司将 Cassowary 算法运用到了自家的布局引擎Auto Layout 中。</p><p>Cassowary 能够有效解析线性等式系统和线性不等式系统，用来表示用户界面中那些相等关系和不等关系。</p></blockquote><p>iOS12 的 Auto Layout 更多地利用了 Cassowary 算法的界面更新策略，使其真正完成了高效的界面线性策略计算。如果你是一名手写布局的 iOS 开发者，这是你投入 Auto Layout 布局开发的最佳时机。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;frame-autolayout-比较&quot;&gt;&lt;a href=&quot;#frame-autolayout-比较&quot; class=&quot;headerlink&quot; title=&quot;frame autolayout 比较&quot;&gt;&lt;/a&gt;frame autolayout 比较&lt;/h1&gt;&lt;h3 i
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>第一篇文章</title>
     <link href="https://frontstoner.github.io/2019/06/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>https://frontstoner.github.io/2019/06/05/第一篇文章/</id>
     <published>2019-06-05T05:43:10.000Z</published>
-    <updated>2019-06-05T06:35:38.000Z</updated>
+    <updated>2019-06-19T08:25:40.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Quick-Start-1"><a href="#Quick-Start-1" class="headerlink" title="Quick Start"></a>Quick Start</h2><ul><li>爱上你嗲水泥地阿森纳嗲是你的</li><li>奥术大师大所大所多奥术大师大所多a</li><li>奥术大师大所</li><li>adasdasd</li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Quick-Start-1"><a href="#Quick-Start-1" class="headerlink" title="Quick Start"></a>Quick Start</h2><ul><li>爱上你嗲水泥地阿森纳嗲是你的</li><li>奥术大师大所大所多奥术大师大所多a</li><li>奥术大师大所</li><li>adasdasd </li></ul>]]></content>
     
     <summary type="html">
     
