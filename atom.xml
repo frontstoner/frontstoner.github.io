@@ -89,16 +89,15 @@
     <link href="https://frontstoner.github.io/2012/12/20/%E6%89%8B%E6%9C%BA%E5%AE%9A%E4%BD%8D/"/>
     <id>https://frontstoner.github.io/2012/12/20/手机定位/</id>
     <published>2012-12-20T07:22:05.000Z</published>
-    <updated>2019-06-20T09:20:21.000Z</updated>
+    <updated>2019-06-21T05:36:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#### </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="手机常用定位方式"><a href="#手机常用定位方式" class="headerlink" title="手机常用定位方式"></a>手机常用定位方式</h2><h3 id="GPS"><a href="#GPS" class="headerlink" title="GPS"></a>GPS</h3><p>GPS其实是全球定位系统的简称，只不过美国抢了先，把本国的定位系统命名为GPS而已。因此，实际上我们手机里面显示的GPS并不代表，我们使用的一定就是美国的定位系统。其实已经有一部分手机使用的是我们自己的北斗系统，只是我们不知道而已<br>也就是说广义的GPS就是卫星导航系统 目前有美国<a href="https://baike.baidu.com/item/%E5%85%A8%E7%90%83%E5%AE%9A%E4%BD%8D%E7%B3%BB%E7%BB%9F/1240960" target="_blank" rel="noopener">全球定位系统</a>（GPS）,俄罗斯<a href="https://baike.baidu.com/item/%E6%A0%BC%E6%B4%9B%E7%BA%B3%E6%96%AF%E5%8D%AB%E6%98%9F%E5%AF%BC%E8%88%AA%E7%B3%BB%E7%BB%9F/22764042" target="_blank" rel="noopener">格洛纳斯卫星导航系统</a>（GLONASS）,欧洲<a href="https://baike.baidu.com/item/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8D%AB%E6%98%9F%E5%AF%BC%E8%88%AA%E7%B3%BB%E7%BB%9F/9142271" target="_blank" rel="noopener">伽利略卫星导航系统</a>（Galileo satellite navigation system）还有就是中国北斗卫星导航系统（英文名称BeiDou Navigation Satellite System，缩写BDS）。</p><p>简述原理:</p><ol><li><p>运行于宇宙空间的GPS卫星，每一个都在时刻不停地通过卫星信号向全世界广播自己的当前位置坐标信息。任何一个GPS接收器都可以通过天线很轻松地接收到这些信息，并且能够读懂这些信息（这其实也是每一个GPS芯片的核心功能之一）。这就是这些位置信息的来源。</p></li><li><p>发送位置信息的同时，也会附加上该数据包发出时的时间戳。GPS接收器收到数据包后，用当前时间（当前时间当然只能由GPS接收器自己来确定了）减去时间戳上的时间，就是数据包在空中传输所用的时间了。</p><p>已知时间的情况下,传播理想速度为光速，那就知道了卫星距离接收器（手机）的距离 </p></li><li><p>GPS芯片通过运算逻辑来计算出自己所在的位置信息 数据存在误差 每次需要多次计算 排除掉一些误差大的位置（这可能也是每一个GPS芯片的核心功能之一 同时也是定位发热的原因。</p></li></ol><h3 id="基站定位"><a href="#基站定位" class="headerlink" title="基站定位"></a>基站定位</h3><p>基站定位一般是地面定位，主要针对手机用户。其原理是，SIM卡通过计算三个或三个以上基站的信号差异，结合被测量基站的坐标，然后推断出你的手机位置，精准度可达到几百米。</p><h3 id="Wifi定位"><a href="#Wifi定位" class="headerlink" title="Wifi定位"></a>Wifi定位</h3><p>1.每一个无线AP都有一个全球唯一的MAC地址,并且一般来说无线AP在一段时间内是不会移动的<br>2.设备在开启Wi-Fi的情况下,即可扫描并收集周围的AP信号,无论是否加密,是否已连接，甚至信号强度不足以显示在无线信号列表中,都可以获取到AP广播出来的MAC地址</p><p>3.设备将这些能够标示AP的数据发送到位置服务器,服务器检索出每一个AP的地理位置,并结合每个信号的强弱程度,计算出设备的地理位置并返回到用户设备<br>4.位置服务商要不断更新、补充自己的数据库,以保证数据的准确性,毕竟无线AP不像基站塔那样基本100%不会移动</p><h2 id="坐标系"><a href="#坐标系" class="headerlink" title="坐标系"></a>坐标系</h2><h4 id="WGS84"><a href="#WGS84" class="headerlink" title="WGS84"></a>WGS84</h4><p>World Geodetic System 世界大地测量系统 1984年定义 最后修订于2004年 </p><p>在中国，任何一个地图产品都不允许使用GPS坐标</p><p>GPS采取的数据 Google地图</p><h4 id="GCJ02"><a href="#GCJ02" class="headerlink" title="GCJ02"></a>GCJ02</h4><p>火星坐标系、国测局坐标</p><p>中国国家测绘局（G表示Guojia国家，C表示Cehui测绘，J表示Ju局）制订的地理信息系统的坐标系统。 它是一种对经纬度数据的加密算法，即加入随机的偏差。 国内出版的各种地图系统（包括电子形式），必须至少采用<strong>GCJ</strong>-<strong>02</strong>对地理位置进行首次加密。</p><p>在中国，必须至少使用GCJ-02的坐标体系。比如谷歌，腾讯，高德都在用这个坐标体系。GCJ-02也是国内最广泛使用的坐标体系</p><h4 id="BD09"><a href="#BD09" class="headerlink" title="BD09"></a>BD09</h4><p>BD-09是<a href="https://zh.wikipedia.org/wiki/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE" target="_blank" rel="noopener">百度地图</a>使用的地理坐标系，其在GCJ-02上多增加了一次变换，号称“有助保护用户隐私”。百度提供从 WGS-84、GCJ-02、BD-09、mapbar、51 地图坐标系（经纬度或<a href="https://zh.wikipedia.org/wiki/%E5%A2%A8%E5%8D%A1%E6%89%98%E6%8A%95%E5%BD%B1%E6%B3%95" target="_blank" rel="noopener">墨卡托米制</a>）转换到 BD-09 或 GCJ-02 坐标系（经纬度或墨卡托米制）的API，但“根据相关法律规定”，不支持从任何坐标系转换到 WGS-84 坐标系。</p><p>百度地图</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;#### &lt;/p&gt;
-
+        &lt;h2 id=&quot;手机常用定位方式&quot;&gt;&lt;a href=&quot;#手机常用定位方式&quot; class=&quot;headerlink&quot; title=&quot;手机常用定位方式&quot;&gt;&lt;/a&gt;手机常用定位方式&lt;/h2&gt;&lt;h3 id=&quot;GPS&quot;&gt;&lt;a href=&quot;#GPS&quot; class=&quot;headerlink&quot; ti
       
     
     </summary>
