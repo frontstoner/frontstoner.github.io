@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frontstoner.github.io/"/>
-  <updated>2019-06-19T09:47:31.000Z</updated>
+  <updated>2019-06-05T06:30:49.000Z</updated>
   <id>https://frontstoner.github.io/</id>
   
   <author>
@@ -15,62 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>title test</title>
-    <link href="https://frontstoner.github.io/2019/06/19/title-test/"/>
-    <id>https://frontstoner.github.io/2019/06/19/title-test/</id>
-    <published>2019-06-19T09:47:31.000Z</published>
-    <updated>2019-06-19T09:47:31.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://frontstoner.github.io/2019/06/19/frame-autolayout%E6%AF%94%E8%BE%83/"/>
-    <id>https://frontstoner.github.io/2019/06/19/frame-autolayout比较/</id>
-    <published>2019-06-19T08:24:21.000Z</published>
-    <updated>2019-06-19T08:24:31.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="frame-autolayout-比较"><a href="#frame-autolayout-比较" class="headerlink" title="frame autolayout 比较"></a>frame autolayout 比较</h1><h3 id="frame"><a href="#frame" class="headerlink" title="frame"></a>frame</h3><p>View初始化时候增加控件 在layoutSubviews 中做布局，将所有的子视图按照 UI 显示从上至下、从左至右的顺序来布局，感觉也很规范，代码也不会导致不易维护的程度。</p><h3 id="autolayout"><a href="#autolayout" class="headerlink" title="autolayout"></a>autolayout</h3><p>由于在 2012 年苹果发布了 4.0 寸的 iPhone5，在 iOS 平台上出现了不同尺寸的移动设备，使得原有的 frame 布局方式无法很好地适配不同尺寸的屏幕，所以，为了解决这一问题 Auto Layout 就诞生了。</p><p>Auto Layout 的诞生并没有如同苹果的其它框架一样收到开发者的好评，它自诞生的第一天起就饱受 iOS 开发者的批评，其蹩脚、冗长的语法使得它在刚刚面世就被无数开发者吐槽，写了几个屏幕的代码都不能完成一个简单的布局，哪怕是 VFL（Visual Format Language）也拯救不了它。</p><p>真正使 Auto Layout 大规模投入使用的应该还是 <a href="https://github.com/SnapKit/Masonry" target="_blank" rel="noopener">Masonry</a>，它使用了链式的语法对 Auto Layout 进行了很好的封装，使得 Auto Layout 更加简单易用；时至今日，开发者也在日常使用中发现了 Masonry 的各种问题，于是出现了各种各样的布局框架，不过这都是后话了。</p><blockquote><p>autolayout与Cassowary关系</p><p>一个是 1997 年，Auto Layout 用到的布局算法 Cassowary 被发明了出来；</p><p>另一个是 2011 年，苹果公司将 Cassowary 算法运用到了自家的布局引擎Auto Layout 中。</p><p>Cassowary 能够有效解析线性等式系统和线性不等式系统，用来表示用户界面中那些相等关系和不等关系。</p></blockquote><p>iOS12 的 Auto Layout 更多地利用了 Cassowary 算法的界面更新策略，使其真正完成了高效的界面线性策略计算。如果你是一名手写布局的 iOS 开发者，这是你投入 Auto Layout 布局开发的最佳时机。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;frame-autolayout-比较&quot;&gt;&lt;a href=&quot;#frame-autolayout-比较&quot; class=&quot;headerlink&quot; title=&quot;frame autolayout 比较&quot;&gt;&lt;/a&gt;frame autolayout 比较&lt;/h1&gt;&lt;h3 i
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇文章</title>
-    <link href="https://frontstoner.github.io/2019/06/05/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://frontstoner.github.io/2019/06/05/第一篇文章/</id>
-    <published>2019-06-05T05:43:10.000Z</published>
-    <updated>2019-06-19T08:25:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h2 id="Quick-Start-1"><a href="#Quick-Start-1" class="headerlink" title="Quick Start"></a>Quick Start</h2><ul><li>爱上你嗲水泥地阿森纳嗲是你的</li><li>奥术大师大所大所多奥术大师大所多a</li><li>奥术大师大所</li><li>adasdasd </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h2 id=&quot;Quick-Start-1&quot;&gt;&lt;a href=&quot;#Quic
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -94,11 +38,32 @@
   </entry>
   
   <entry>
+    <title>autolayout frame 比较</title>
+    <link href="https://frontstoner.github.io/2018/06/21/autolayout-frame-%E6%AF%94%E8%BE%83/"/>
+    <id>https://frontstoner.github.io/2018/06/21/autolayout-frame-比较/</id>
+    <published>2018-06-21T02:47:19.000Z</published>
+    <updated>2019-06-21T02:48:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="frame-autolayout-比较"><a href="#frame-autolayout-比较" class="headerlink" title="frame autolayout 比较"></a>frame autolayout 比较</h1><h3 id="frame"><a href="#frame" class="headerlink" title="frame"></a>frame</h3><p>View初始化时候增加控件 在layoutSubviews 中做布局，将所有的子视图按照 UI 显示从上至下、从左至右的顺序来布局，感觉也很规范，代码也不会导致不易维护的程度。</p><h3 id="autolayout"><a href="#autolayout" class="headerlink" title="autolayout"></a>autolayout</h3><p>由于在 2012 年苹果发布了 4.0 寸的 iPhone5，在 iOS 平台上出现了不同尺寸的移动设备，使得原有的 frame 布局方式无法很好地适配不同尺寸的屏幕，所以，为了解决这一问题 Auto Layout 就诞生了。</p><p>Auto Layout 的诞生并没有如同苹果的其它框架一样收到开发者的好评，它自诞生的第一天起就饱受 iOS 开发者的批评，其蹩脚、冗长的语法使得它在刚刚面世就被无数开发者吐槽，写了几个屏幕的代码都不能完成一个简单的布局，哪怕是 VFL（Visual Format Language）也拯救不了它。</p><p>真正使 Auto Layout 大规模投入使用的应该还是 <a href="https://github.com/SnapKit/Masonry" target="_blank" rel="noopener">Masonry</a>，它使用了链式的语法对 Auto Layout 进行了很好的封装，使得 Auto Layout 更加简单易用；时至今日，开发者也在日常使用中发现了 Masonry 的各种问题，于是出现了各种各样的布局框架，不过这都是后话了。</p><blockquote><p>autolayout与Cassowary关系</p><p>一个是 1997 年，Auto Layout 用到的布局算法 Cassowary 被发明了出来；</p><p>另一个是 2011 年，苹果公司将 Cassowary 算法运用到了自家的布局引擎Auto Layout 中。</p><p>Cassowary 能够有效解析线性等式系统和线性不等式系统，用来表示用户界面中那些相等关系和不等关系。</p></blockquote><p>iOS12 的 Auto Layout 更多地利用了 Cassowary 算法的界面更新策略，使其真正完成了高效的界面线性策略计算。如果你是一名手写布局的 iOS 开发者，这是你投入 Auto Layout 布局开发的最佳时机。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;frame-autolayout-比较&quot;&gt;&lt;a href=&quot;#frame-autolayout-比较&quot; class=&quot;headerlink&quot; title=&quot;frame autolayout 比较&quot;&gt;&lt;/a&gt;frame autolayout 比较&lt;/h1&gt;&lt;h3 i
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>搭建博客</title>
-    <link href="https://frontstoner.github.io/2017/06/19/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://frontstoner.github.io/2017/06/19/搭建博客/</id>
-    <published>2017-06-19T10:00:23.000Z</published>
-    <updated>2019-06-19T12:20:35.000Z</updated>
+    <link href="https://frontstoner.github.io/2014/06/19/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://frontstoner.github.io/2014/06/19/搭建博客/</id>
+    <published>2014-06-19T10:00:23.000Z</published>
+    <updated>2019-06-21T02:45:02.000Z</updated>
     
     <content type="html"><![CDATA[<ul><li>github pages  </li><li>hexo</li><li>域名</li></ul><h4 id="github-pages"><a href="#github-pages" class="headerlink" title="github pages"></a>github pages</h4><p>GitHub Pages是免费的HTML静态博客，三个特点：免费托管、自带主题、支持自制页面（Jekyll hexo)。</p><p>步骤 参考官网 <a href="https://pages.github.com/" target="_blank" rel="noopener">https://pages.github.com/</a></p><ol><li><p>在github创建 username.github.io的仓库</p></li><li><p>git clone  <a href="https://github.com/*username*/*username*.github.io" target="_blank" rel="noopener">https://github.com/*username*/*username*.github.io</a></p></li><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd username.github.io   </span><br><span class="line">echo &quot;Hello World&quot; &gt; index.html</span><br></pre></td></tr></table></figure></li><li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add --all</span><br><span class="line">git commit -m &quot;Initial commit&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure></li></ol><h3 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h3><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">参考中文文档及视频</a></p><h4 id="个人域名"><a href="#个人域名" class="headerlink" title="个人域名"></a>个人域名</h4><p>静态网页 只需要申请个域名就可以 备案<br>打开阿里云 右上角点击“控制台”选项 选择“域名” </p><p>有了自己的域名 打开github.username.io 右上角setting  选择“Custom domain”  填上自己的域名</p>]]></content>
     
@@ -112,6 +77,28 @@
 &lt;li&gt;域名&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;github-pages&quot;&gt;&lt;a href=&quot;#github-pages&quot; class=&quot;headerlink&quot; title=&quot;github 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>手机定位</title>
+    <link href="https://frontstoner.github.io/2012/12/20/%E6%89%8B%E6%9C%BA%E5%AE%9A%E4%BD%8D/"/>
+    <id>https://frontstoner.github.io/2012/12/20/手机定位/</id>
+    <published>2012-12-20T07:22:05.000Z</published>
+    <updated>2019-06-20T09:20:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#### </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#### &lt;/p&gt;
+
       
     
     </summary>
